@@ -9,11 +9,11 @@ body {
     text-align: center;
 } */
 .main_img{
-    height: 100%;
+    height: 700px;
     width: 100%;
     background-image: url("../images/pexels-oleg-magni-1005638.jpg");
-    background-repeat:repeat;
-    background-size: contain;
+    background-repeat:no-repeat;
+    background-size: cover;
     object-fit:cover;
 }
 .text{
@@ -48,4 +48,12 @@ body {
 #contact{
     background-color: turquoise;
 }
-
+.contact_part{
+    font-size: 2rem;
+    margin-left: 42%;
+    margin-bottom: 10px;
+}
+.pair{
+    margin-left: 40%;
+    margin-bottom: 10px;
+}
