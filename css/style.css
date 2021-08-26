@@ -1,31 +1,51 @@
-body { 
+body {
+    margin: 0px;
+    padding: 10px;
  border: 3px solid blue;
- background-image: url("../images/pexels-emirkhan-bal-953862.jpg");
- background-repeat: no-repeat;
- background-size: contain;
 
- object-fit: fill;
-}
-.Main_Upper_layout{
-    text-align:center;
-}
-
-h2{ font-family:cursive;
-    font-size: 30px;
-  color:#fc038c;
-}
-span >a{
-    font-size:25px;
 
 }
-
-
-/* div > p{
-    color:rgb(255,255,0);
-    background-color: red;
+/* .Main_Upper_layout{
+    text-align: center;
+} */
+.main_img{
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/pexels-oleg-magni-1005638.jpg");
+    background-repeat:repeat;
+    background-size: contain;
+    object-fit:cover;
+}
+.text{
     font-size: 20px;
+    width: 100%;
+    background-image: url("../images/pexels-emirkhan-bal-953862.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    object-fit:cover;
 }
-#abc{
-    border-style: solid;
-    margin: 120px;
-}  */
+.logo{ text-align: center;
+    width: 6%;
+    height: 12%;
+    border: 1px solid black;
+     font-family:cursive;
+    font-size: 20px;
+    background-color: rgb(35, 89, 160);
+  color:azure;
+  border-radius: 60px;
+  contain: content;
+}
+
+.navigation{
+    align-content:center;
+    border: 1px solid black;
+  padding: 20px;
+    text-align:end;
+    padding: 10px;
+    font-size:100%;
+
+}
+#contact{
+    background-color: turquoise;
+}
+

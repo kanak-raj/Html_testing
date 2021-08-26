@@ -1,42 +1,82 @@
 <html>
 
 <head>
-    <title>E-CART_SAMPLE</title>
+    <title>MY_BAZAAR</title>
     <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-
-    <div class="Main_Upper_layout">
-        <h2>MY BAZAAR</h2>
-        <span>
+    <div>
+        <h2 class="logo">MY BAZAAR</h2>
+        <span class="navigation">
             <a href='#'>Home</a>
-            <a href='#'>About Us</a>
-            <a href='#'>Order</a>
-            <a href='#'>Happenings</a>
-            <a href='#'>Location</a>
-            <a href='#'>Contact Us</a>
+            <a href='#about'>About Us</a>
+            <a href='#contact'>Contact Us</a>
         </span>
 
     </div>
-    <hr>
 
-    <h4>Introduction</h4>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur alias cum voluptatibus, error dolorum minus?
-        <br>
-        Commodi beatae sit molestias facere aperiam ad pariatur ex dicta, suscipit animi quam. Dicta, voluptatem?
-    </p>
-    <h3>Here are today's offers:-</h3>
-    <ul id="offers">
-        <li>Offer-1</li>
-        <ol>
-            <li> Description.</li>
-            <li> Timing of the offer.</li>
-        </ol>
-        <li>Offer-2</li>
-        <li>Offer-3</li>
-        <li>Offer-4</li>
-    </ul>
+    <hr>
+    <div class="main_img">
+
+        <a href='#'>Order</a>
+        <a href='#deals'>Today's deals</a>
+
+    </div>
+
+    <div class="text">
+        <h4 id="about">Introduction</h4>
+        <ul>
+            <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur alias cum voluptatibus, error
+                dolorum
+                minus?
+                <br>
+                Commodi beatae sit molestias facere aperiam ad pariatur ex dicta, suscipit animi quam. Dicta,
+                voluptatem?
+            </li>
+            <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur alias cum voluptatibus, error
+                dolorum
+                minus?
+                <br>
+                Commodi beatae sit molestias facere aperiam ad pariatur ex dicta, suscipit animi quam. Dicta,
+                voluptatem?
+            </li>
+        </ul>
+
+        <h3 id="deals">Here are today's offers:-</h3>
+        <ul>
+            <li>Offer-1</li>
+            <ol>
+                <li> Description.</li>
+                <li> Timing of the offer.</li>
+            </ol>
+            <li>Offer-2</li>
+            <li>Offer-3</li>
+            <li>Offer-4</li>
+            <ol>
+                <li> Description.</li>
+                <li> Timing of the offer.</li>
+            </ol>
+        </ul>
+        <h3 id="upcoming_deals">Some upcoming deals:-</h3>
+        <ul>
+            <li>Deal-1</li>
+            <ol>
+                <li> Description.</li>
+                <li> Timing of the offer.</li>
+            </ol>
+            <li>Deal-2</li>
+            <li>Deal-3</li>
+            <li>Deal-4</li>
+            <ol>
+                <li> Description.</li>
+                <li> Timing of the offer.</li>
+            </ol>
+        </ul>
+    </div>
+
     <figure>
         <img src="./images/pexels-hobi-industri-4053267.jpg" width="500 px">
         <figcaption>All your daily needs available.</figcaption>
@@ -45,23 +85,25 @@
             alt="Server busy.Please try after some time.">
         <figcaption>service available 24/7.</figcaption>
     </figure>
-    <figure> <img src="./images//pexels-oleg-magni-1005638.jpg" width="500 px">
-        <figcaption>We care for your hygiene.</figcaption>
-    </figure>
+
 
 
     <hr>
-    <div>Contact Us!</div>
-    <form class="footer">
-        <label>Name:</label>
-        <input type="text" name="Name" placeholder="Your name">
-        <label>Email:</label>
-        <input type="text" name="Email" placeholder="Enter your mail id">
-        <br>
-        <label>Give your feedback:</label>
-        <br>
-        <textarea placeholder="start typing here.."></textarea>
-    </form>
+    <div id="contact">
+        <p>Contact Us!</p>
+        <form>
+            <label>Name:</label>
+            <input type="text" name="Name" placeholder="Your name">
+            <br>
+            <label>Email:</label>
+            <input type="text" name="Email" placeholder="Enter your mail id">
+            <br>
+            <label>Give your feedback:</label>
+            <br>
+            <textarea placeholder="start typing here.."></textarea>
+        </form>
+    </div>
+
 
 
 </body>
