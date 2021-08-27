@@ -1,8 +1,6 @@
 body {
-    background-color: blanchedalmond;
     box-sizing: border-box;
     margin: 0px;
-    padding: 10px;
  border: 3px solid blue;
 
 
@@ -10,10 +8,7 @@ body {
 a{
     text-decoration: none;
 }
-figure{
-    margin-inline-end: 20px;
-    margin-inline-start:20px;
-}
+
 .logo{
     height: 60px;
     width: 60px;
@@ -22,13 +17,20 @@ figure{
   border-radius: 40px;
 }
 .Main_Upper_layout{
-    
+    background-color: wheat;
+    position:sticky;
+    top: 0px;
     display: flex;
     flex-direction: row;
     
 }
+.h_r{
+    position: sticky;
+    top: 70px;
+}
 .navigation{
-    padding: 15px;
+    
+    padding: 25px;
  text-align: end;
     flex-grow: 2;
  
@@ -36,9 +38,14 @@ figure{
 
 }
 .navigation>a{
-   
+    margin: 10px;
+    border: 1px solid rgb(12, 2, 2);
+   background-color: blue;
+   color: white;
     padding-right: 5px;
     font-size:100%;
+    padding: 5px;
+    border-radius: 10px;
 
 }
 .main_img{
@@ -51,9 +58,9 @@ figure{
 }
 
 .main_img_buttons{
-
-    text-align: center;
-padding-top: 20%;
+   
+    padding-left: 41%;
+    padding-top: 23%;
 
 }
 .main_img_buttons>a{
@@ -89,23 +96,38 @@ padding-top: 20%;
 
 }
 .feedback_upperpart{
+    text-decoration: underline;
     font-size: 1.5rem;
     text-align: center;
     margin-bottom: 10px;
 }
 .customers{
-      
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     
 }
 .customers>div{
+    width: 155px;
     border-radius: 20px;
     background-color: cadetblue;
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
     margin: 5px;
     padding: 5px;
     border: 1px solid burlywood;
+}
+.go_to_top{
+    text-align: end;
+
+}
+.go_to_top_button{
+    margin-right: 10px ;
+    font-size: 1.5rem;
+    border:2px solid black;
+    padding: 5px;
+    background-color: rgb(123, 226, 6);
+    
+  border-radius: 10px;
 }
 #contact{
   
