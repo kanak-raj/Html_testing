@@ -1,25 +1,46 @@
 body {
+    background-color: blanchedalmond;
+    box-sizing: border-box;
     margin: 0px;
     padding: 10px;
  border: 3px solid blue;
 
 
 }
+a{
+    text-decoration: none;
+}
+figure{
+    margin-inline-end: 20px;
+    margin-inline-start:20px;
+}
 .logo{
-    margin-left: 40%;
-    margin-right: 40%;
-    border: 1px solid black;
-     font-family:cursive;
-    font-size: 20px;
-    background-color: rgb(35, 89, 160);
-  color:azure;
-  border-radius: 60px;
-  contain: content;
+    height: 60px;
+    width: 60px;
+    padding: 2px;
+    border: 3px solid green;
+  border-radius: 40px;
 }
 .Main_Upper_layout{
-    text-align: center;
+    
+    display: flex;
+    flex-direction: row;
+    
 }
+.navigation{
+    padding: 15px;
+ text-align: end;
+    flex-grow: 2;
+ 
+  justify-content: center;
 
+}
+.navigation>a{
+   
+    padding-right: 5px;
+    font-size:100%;
+
+}
 .main_img{
     height: 700px;
     width: 100%;
@@ -30,19 +51,17 @@ body {
 }
 
 .main_img_buttons{
-padding-left: 40%;
+
+    text-align: center;
 padding-top: 20%;
-/* padding-bottom: 30%; */
 
 }
 .main_img_buttons>a{
+    padding: 5px;
     border-radius: 20px;
-    margin: 0.5rem;
-    padding: 0.5rem;
-    color: rgb(29, 18, 88);
     background-color:rgb(183, 236, 232);
     border: 1px solid black;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .text{
     font-size: 20px;
@@ -53,16 +72,44 @@ padding-top: 20%;
     object-fit:cover;
 }
 
-.navigation>a{
-   text-align: end;
-  padding: 20px;
-    text-align:end;
-    padding: 10px;
-    font-size:100%;
+
+.images{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
 
 }
+.images>.image_tile{
+    margin: 10px;
+    padding-bottom: 10px;
+    height:250px;
+    object-fit: cover;
+
+}
+.feedback_upperpart{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.customers{
+      
+    display: flex;
+    flex-direction: row;
+    
+}
+.customers>div{
+    border-radius: 20px;
+    background-color: cadetblue;
+    color: whitesmoke;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid burlywood;
+}
 #contact{
-    width: 100%;
+  
+background-color: rgb(247, 245, 243);
 }
 
 .footer_upperpart>div{
@@ -74,7 +121,14 @@ padding-top: 20%;
     font-size: 1.5rem;
     text-align: center;
 }
-
+.submit_button{
+    font-size: 1.5rem;
+    border:1 px solid green;
+     font-family:cursive;
+    background-color: rgb(123, 226, 6);
+  color:rgb(65, 5, 62);
+  border-radius: 10px;
+}
 .footer_lowerpart{
     text-align: center;
 }
