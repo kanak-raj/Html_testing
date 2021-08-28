@@ -113,6 +113,7 @@ a{
     margin-bottom: 10px;
 }
 .customers{
+    padding: 2px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -178,13 +179,23 @@ background-color: rgb(247, 245, 243);
     .text{
         font-size: 12px;
     }
+    .feedback_upperpart{
+        font-size: 18px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .customers>div{
+        width:30%;
+        border: 3px solid burlywood;
+    }
     .go_to_top_button{
        right: 5px;
         font-size: 0.7rem;
       border-radius: 5px;
     }
     .footer_upperpart>div{
-        font-size: 1rem;
+        font-size: 0.7rem;
+        margin-top: 5px;
         margin-bottom: 5px;
     }
     .footer_upperpart>form{
