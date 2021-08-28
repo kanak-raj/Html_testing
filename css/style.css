@@ -30,26 +30,30 @@ a{
 }
 .navigation{
     
-    padding: 25px;
+    padding-top: 23px;
  text-align: end;
     flex-grow: 2;
+    
  
-  justify-content: center;
 
 }
 .navigation>a{
-    margin: 10px;
+    margin: 3px;
     border: 1px solid rgb(12, 2, 2);
    background-color: blue;
    color: white;
-    padding-right: 5px;
     font-size:100%;
     padding: 5px;
+    contain: content;
     border-radius: 10px;
 
 }
 .main_img{
-    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    height: 540px;
     width: 100%;
     background-image: url("../images/pexels-oleg-magni-1005638.jpg");
     background-repeat:no-repeat;
@@ -58,9 +62,8 @@ a{
 }
 
 .main_img_buttons{
-   
-    padding-left: 41%;
-    padding-top: 23%;
+    text-align: center;
+    width: 100%;
 
 }
 .main_img_buttons>a{
@@ -76,6 +79,7 @@ a{
     background-image: url("../images/pexels-emirkhan-bal-953862.jpg");
     background-repeat:no-repeat;
     background-size: cover;
+    height: 100%;
     object-fit:cover;
 }
 
@@ -128,10 +132,12 @@ a{
 
 }
 .go_to_top_button{
-    margin-right: 10px ;
+    position:fixed;
+   bottom: 0px;
+   right: 10px;
     font-size: 1.5rem;
     border:2px solid black;
-    padding: 5px;
+    padding: 3px;
     background-color: rgb(123, 226, 6);
     
   border-radius: 10px;
@@ -150,6 +156,7 @@ background-color: rgb(247, 245, 243);
     font-size: 1.5rem;
     text-align: center;
 }
+
 .submit_button{
     font-size: 1.5rem;
     border:1 px solid green;
@@ -164,7 +171,34 @@ background-color: rgb(247, 245, 243);
 .footer_lowerpart>a{
     padding: 10px;
 }
-
 .pair{
     margin-bottom: 10px;
+}
+@media (max-width:768px){
+    .text{
+        font-size: 12px;
+    }
+    .go_to_top_button{
+       right: 5px;
+        font-size: 0.7rem;
+      border-radius: 5px;
+    }
+    .footer_upperpart>div{
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+    .footer_upperpart>form{
+        font-size: 0.7rem;
+    }
+    .submit_button{
+        font-size: 0.7rem;
+      border-radius: 5px;
+    }
+    .footer_lowerpart>a{
+        padding: 5px;
+    }
+    
+    .pair{
+        margin-bottom: 5px;
+    }
 }
