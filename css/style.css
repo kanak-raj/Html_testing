@@ -134,7 +134,7 @@ a{
 }
 .go_to_top_button{
     position:fixed;
-   bottom: 0px;
+   bottom: 5px;
    right: 10px;
     font-size: 1.5rem;
     border:2px solid black;
@@ -190,6 +190,7 @@ background-color: rgb(247, 245, 243);
     }
     .go_to_top_button{
        right: 5px;
+       bottom: 5px;
         font-size: 0.7rem;
       border-radius: 5px;
     }
