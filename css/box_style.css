@@ -1,5 +1,7 @@
-body{
-    height: 900px;
+body{ 
+    border: 5px solid black;
+    height: 2000px;
+    margin: 1px;
 }
 .heading{
     font-size: 4rem;
