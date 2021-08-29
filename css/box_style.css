@@ -1,6 +1,6 @@
 body{ 
     border: 5px solid black;
-    height: 2000px;
+   
     margin: 1px;
 }
 .heading{
@@ -119,6 +119,9 @@ a{
     color: white;
 } 
 @media (max-width: 768px){
+    .body{
+        height: 2000px;
+    }
     .heading{
         font-size: 2rem;
     }
