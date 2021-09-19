@@ -57,12 +57,21 @@ body{
     padding: 1rem;
 }
 .b1{
-    margin-left: 0px;
+    margin: 1em 5px 5px 1em;
 width: 50%;
 
 }
 .b2{
-    margin-right: 0px;
+    margin: 1em 1rem 5px 5px;
+    width: 50%;
+}
+.b1_1{
+    margin:5px 5px 1rem 1rem;
+width: 50%;
+
+}
+.b2_2{
+    margin: 5px 1rem 1rem 5px;
     width: 50%;
 }
 .b3{
@@ -138,6 +147,23 @@ a{
      flex-wrap: wrap;
         
        
+    }
+    .b1{
+        margin: 1.8em 10px 5px 1.5em;
+    
+    }
+    .b2{
+        margin: 1.8em 1.5em 5px 5px;
+        width: 50%;
+    }
+    .b1_1{
+        margin:0px 10px 3rem 1.5rem;
+    width: 50%;
+    
+    }
+    .b2_2{
+        margin: 0px 1.5rem 3rem 5px;
+        width: 50%;
     }
     .b4,.b5{
       
